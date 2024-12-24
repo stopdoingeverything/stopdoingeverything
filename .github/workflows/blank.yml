@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lou Catalan - Educator | Filmmaker | Musician</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        .blog-post {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+        }
+        .blog-post:last-of-type {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lou Catalan</h1>
+    <p>Educator | Filmmaker | Musician</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated educator with a passion for fostering growth in students. I teach bilingual U.S. History and ESL, lead a guitar club at school, and have extensive experience tutoring. Beyond the classroom, I am a filmmaker who has presented work at national conferences and an aspiring writer documenting my journey as an immigrant. My goal is to inspire creativity and learning in every facet of life.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to connect, please reach out via email or follow me on social media.</p>
+    <p>Email: <a href="mailto:lou.catalan@example.com">lou.catalan@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/loucatalan">linkedin.com/in/loucatalan</a></p>
+</section>
+
+<section id="blog">
+    <h2>Personal Blog</h2>
+    <div class="blog-post">
+        <h3>Reflections on Teaching</h3>
+        <p>Being a teacher is not just a job, but a calling. Every day brings new challenges and opportunities to make a difference...</p>
+    </div>
+    <div class="blog-post">
+        <h3>The Journey of Starting a Guitar Club</h3>
+        <p>Music has the power to bring people together. Starting the guitar club has been an incredible experience...</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lou Catalan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
